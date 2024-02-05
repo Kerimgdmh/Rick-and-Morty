@@ -1,0 +1,39 @@
+/* src/components/EpisodeList.css */
+.episode-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .episode-item {
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center; /* Sayfaları ortala */
+    list-style: none;
+    padding: 0;
+    margin-top: 20px; /* Sayfa içeriğinden biraz aşağıda olsun */
+  }
+  
+  .page-item {
+    margin-right: 5px;
+  }
+  
+  .page-link {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+  }
+  
+  .active {
+    background-color: #2980b9;
+  }
+  

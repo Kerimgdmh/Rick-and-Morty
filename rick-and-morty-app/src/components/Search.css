@@ -1,0 +1,25 @@
+/* src/Search.css */
+.full-page-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Sayfanın tamamını kapla */
+    background-color: #f0f0f0; /* Arama alanının arkaplan rengi */
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 500px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    margin-left: 10px;
+  }
+  
